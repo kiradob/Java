@@ -1,4 +1,10 @@
+
+
+
 package sem1;
+
+import java.util.Arrays;
+import java.util.Random;
 
 public class java_DZ1_task0 {
     public static void main(String[] args) {
@@ -12,6 +18,7 @@ public class java_DZ1_task0 {
         printString("Hey,Kira!", 2); // Hey,Kira!Hey,Kira!
 
         System.out.println(isLeapYear(2023)); // true
+        System.out.println(Arrays.toString(createArray(5, 2)));
           
     }
      
@@ -60,4 +67,13 @@ public class java_DZ1_task0 {
             return true;
         }
     }
+        // 0.5. Должен вернуть массив длины len, каждое значение которого равно initialValue
+    private static int[] createArray(int len, int initalValue) {
+        int[] array = new int[len];
+        for (int i = 0; i < len; i++) {
+            array[i] = initalValue;
+        }
+        return array;
+    }
 }
+
