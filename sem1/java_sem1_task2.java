@@ -4,7 +4,7 @@ package sem1;
 // массива должны быть отличны от заданного, а остальные - равны ему.
 public class java_sem1_task2 {
     public static void main(String[] args) {
-        int[] array={1,2,2,2,1,5,3,2,3};
+        int[] array={3,2,2,2,1,5,3,2,3};
         int val = 3;
         swap(array,val);
         for (int x:array){
