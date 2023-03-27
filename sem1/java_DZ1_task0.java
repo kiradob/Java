@@ -1,7 +1,7 @@
 package sem1;
 
 import java.util.Arrays;
-import java.util.Random;
+// import java.util.Random;
 
 public class java_DZ1_task0 {
     public static void main(String[] args) {
@@ -73,5 +73,4 @@ public class java_DZ1_task0 {
         return array;
     }
 }
-
 
