@@ -16,4 +16,4 @@ public class java_DZ2_task1 {
         return с.repeat(n/2);
     }
 }
- 
+
